@@ -43,6 +43,7 @@ img{
 a:hover {
     font-weight: bold;
     text-decoration: underline;
+    background-color: #d9e0fa;
 }
 
 .row {
@@ -63,4 +64,8 @@ a:hover {
 .resize {
     max-height: 300px;
     max-width: auto;
+}
+
+.work {
+    box-shadow: 20px 20px 40px 0 rgba(13, 59, 103, 0.53);
 }
