@@ -2,7 +2,7 @@
     box-sizing: border-box;
     text-align: center;
     font-size: 16px;
-    margin: 4px;
+    margin: 1rem;
     line-height: 1.5rem;
     color: rgb(63, 58, 58);
     background-color: rgba(245, 245, 201, 0.189);
@@ -34,38 +34,35 @@ h2 {
     line-height: 1rem;
     margin:  2rem 0;
     border: 1px solid gray;
+    background-color:  rgba(128, 62, 4, 0.1);
 }
 
 h3 {
-    margin: 1rem 0;
-    font-size: 18px;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    color: rgb(114, 68, 68);
 }
 
 img{
     max-height: 500px;
     max-width: auto;
-
 }
 
 a:hover {
     font-weight: bold;
-    text-decoration: underline;
-    background-color: #d9e0fa;
+    text-decoration: none;
+    background-color: rosybrown;
 }
 
 .row {
     display: flex;
     justify-content: space-around;
-  }
-  
-.column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-
+}
 
 .logos {
     max-height: 3rem;
+    margin: 0.5rem;
 }
 
 .resize {
