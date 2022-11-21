@@ -5,6 +5,7 @@
     margin: 4px;
     line-height: 1.5rem;
     color: rgb(63, 58, 58);
+    background-color: rgba(245, 245, 201, 0.189);
 }
 
 .container > header {
@@ -75,3 +76,8 @@ a:hover {
 .work {
     box-shadow: 20px 20px 40px 0 rgba(13, 59, 103, 0.53);
 }
+
+
+/* when making a class use a "." in front of the name. 
+when styling an id, use a # in front of the name. 
+When styling an element, you don't need a period or hash in front of it.  */
