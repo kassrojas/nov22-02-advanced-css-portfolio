@@ -1,9 +1,15 @@
-* {
+.container {
     box-sizing: border-box;
     text-align: center;
     font-size: 16px;
     margin: 4px;
+    line-height: 1.5rem;
     color: rgb(63, 58, 58);
+}
+
+.container > header {
+    padding: 1rem;
+    background-color: rgba(255, 218, 185, 0.495);
 }
 
 body {
