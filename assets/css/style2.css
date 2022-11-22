@@ -1,0 +1,25 @@
+/* sandbox css-- practicing flexbox */
+
+.container {
+    background-color: white;
+}
+
+:root {
+    --maintextcolor: black;
+    --dark: gray;
+    --light: antiquewhite;
+    --smallFont: 16px;
+    --headerFont: 28px;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    line-height: 150%;
+    border: none;
+}
+
+img {
+    max-height: 600px;
+    max-width: auto;
+    margin: 2%;
+}
