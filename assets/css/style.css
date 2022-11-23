@@ -1,3 +1,7 @@
+:root {
+    --headercolor: rgba(128, 62, 4, 0.1);
+}
+
 .container {
     box-sizing: border-box;
     text-align: center;
@@ -5,7 +9,7 @@
     margin: 1rem;
     line-height: 1.5rem;
     color: rgb(63, 58, 58);
-    background-color: rgba(245, 245, 201, 0.189);
+    background-color: rgba(245, 245, 201, 0.2);
 }
 
 .container > header {
@@ -15,7 +19,8 @@
 
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 0;
+    padding: auto;
+    margin: auto;
 }
 
 article {
@@ -31,13 +36,13 @@ section {
 
 h1 {
     font-size: 36px;
-    font-weight: 500;
     text-align: center;
-    padding: 8px;
+    padding: 1rem;
 }
 
 h2 {
-    padding: 20px;
+    font-size: 28px;
+    padding: 1rem;
     line-height: 1rem;
     margin:  2rem 0;
     border: 1px solid gray;
@@ -51,6 +56,18 @@ h3 {
     color: rgb(114, 68, 68);
 }
 
+.navBar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navBar a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rosybrown;
+}
+
 img{
     max-height: 500px;
     max-width: auto;
@@ -58,7 +75,7 @@ img{
 
 a:hover {
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
     background-color: rosybrown;
 }
 
